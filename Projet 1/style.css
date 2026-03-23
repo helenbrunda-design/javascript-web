@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.box {
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+form > label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
