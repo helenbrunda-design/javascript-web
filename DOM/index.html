@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma liste de tâches</title>
+    <style>
+        .error{color: red; display: none;}
+        .completed{text-decoration: line-through;color: gray;}
+        li{cursor:pointer; margin-top:5px;}
+    </style>
+</head>
+<body>
+    
+    <h1>Ma liste de tâches</h1>
+
+    <input type="text" id="taskInput" placeholder="Nouvelle tâche...">
+    <button id="addBtn">ajouter</button>
+
+    <p id="errorMsg" class="error">veuillez saisir une tâche avant d'ajouter</p>
+
+    <ul id="taskList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
